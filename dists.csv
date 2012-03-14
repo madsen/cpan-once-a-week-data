@@ -1988,3 +1988,9 @@ dist_id,dist_name
 1987,Bracket
 1988,Catalyst-Plugin-Unicode-Encoding
 1989,Catalyst-Plugin-Cache
+1990,Benchmark-Featureset-LocaleCountry
+1991,DBIx-Class-Candy
+1992,Cosmic-DB
+1993,Text-FormBuilder
+1994,SOAP-Data-Builder
+1995,Win32-MSI-HighLevel
