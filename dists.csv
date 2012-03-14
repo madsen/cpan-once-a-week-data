@@ -1984,3 +1984,7 @@ dist_id,dist_name
 1983,REST-Google-Apps-Provisioning
 1984,MouseX-App-Cmd
 1985,Catalyst-View-Image-Text2Image
+1986,Logfile-Read
+1987,Bracket
+1988,Catalyst-Plugin-Unicode-Encoding
+1989,Catalyst-Plugin-Cache
