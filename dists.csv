@@ -1994,3 +1994,17 @@ dist_id,dist_name
 1993,Text-FormBuilder
 1994,SOAP-Data-Builder
 1995,Win32-MSI-HighLevel
+1996,Net-Stomp
+1997,Dist-Zilla-PluginBundle-Author-MELO
+1998,Net-Stomp-MooseHelpers
+1999,Mojolicious-Plugin-CountryDropDown
+2000,Net-Stomp-Producer
+2001,Plack-Handler-Stomp
+2002,Catalyst-ActionRole-JMS
+2003,CatalystX-ComponentsFromConfig
+2004,CatalystX-ConsumesJMS
+2005,Email-Sender-Server
+2006,Win32-GuiTest
+2007,Template-Flute
+2008,App-xml_grep2
+2009,Set-SortedArray
