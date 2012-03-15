@@ -2008,3 +2008,11 @@ dist_id,dist_name
 2007,Template-Flute
 2008,App-xml_grep2
 2009,Set-SortedArray
+2010,Lingua-EN-AR
+2011,Mail-OpenDKIM
+2012,Bundle-W3C-Validator
+2013,Math-SimpleHisto-XS
+2014,Pod-Wordlist-hanekomu
+2015,Dist-Zilla-Plugin-RPM
+2016,Perlanet
+2017,Env-Sanctify
