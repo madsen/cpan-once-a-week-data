@@ -2042,3 +2042,9 @@ dist_id,dist_name
 2041,Alien-Base
 2042,Cisco-UCS-Common-PSU
 2043,Cisco-UCS-FEX
+2044,Syntax-Feature-Qwa
+2045,EBI-FGPT-FuzzyRecogniser
+2046,Crypt-OpenSSL-Blowfish-CFB64
+2047,Test-Smoke
+2048,Bit-Compare
+2049,Devel-Trace
