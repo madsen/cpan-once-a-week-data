@@ -2048,3 +2048,15 @@ dist_id,dist_name
 2047,Test-Smoke
 2048,Bit-Compare
 2049,Devel-Trace
+2050,Filesys-POSIX
+2051,IPC-Pipeline
+2052,Mail-Alias-Reader
+2053,Finance-Bank-Postbank_de
+2054,MozRepl-RemoteObject
+2055,Dir-Project
+2056,SVN-S4
+2057,Test-Routine
+2058,Elive-StandardV3
+2059,XML-LibXML-Devel-SetLineNumber
+2060,WWW-Hashbang-Pastebin
+2061,WWW-Hashbang-Pastebin-Client
