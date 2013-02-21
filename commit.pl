@@ -19,7 +19,7 @@ use DateTime ();
 
 chdir $Bin or die $!;
 
-my @files = map { "$_.csv"} qw(authors releases);
+my @files = map { "$_.csv"} qw(authors contests releases);
 
 for (@files) { die "$_ not found\n" unless -e $_ }
 
