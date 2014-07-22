@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/local/bin/perl
 #---------------------------------------------------------------------
 # commit.pl
 # Copyright 2012 Christopher J. Madsen
@@ -13,13 +13,14 @@ use 5.010;
 use FindBin '$Bin';
 
 use DateTime ();
+use Path::Tiny qw(path);
 
 #---------------------------------------------------------------------
 # Make sure the files are there:
 
 chdir $Bin or die $!;
 
-my @files = map { "$_.csv"} qw(authors releases);
+my @files = map { "$_.csv"} qw(authors);
 
 for (@files) { die "$_ not found\n" unless -e $_ }
 
@@ -28,7 +29,16 @@ for (@files) { die "$_ not found\n" unless -e $_ }
 
 my $message;
 {
-  open my $in, '<:utf8', 'releases.csv' or die $!;
+  my @releases;
+
+  for my $dir (path('releases')->children(qr/^\d{4}$/)) {
+    push @releases, $dir->children(qr/^releases-\d{4}-\d\d\.csv$/);
+  }
+
+  @releases = sort @releases;
+  push @files, map { $_->stringify } @releases;
+
+  my $in = $releases[-1]->openr_utf8;
 
   my $date = 0;
 
