@@ -1273,6 +1273,7 @@ author_num,filename,date
 1998,CPAN-Testers-Common-Article-0.45.tar.gz,1405784324
 6533,FCGI-ProcManager-MaxSize.zip,1405785402
 6532,WebService-UrbanDictionary-1.000.tar.gz,1405785489
+68,Dist-Zilla-Plugin-MatchManifest-4.02.tar.gz,1405787570
 6526,release-0.1.7.zip,1405788295
 3843,Text-MultiMarkdown-1.000035.tar.gz,1405801978
 5029,Test-Kwalitee-1.19.tar.gz,1405802300
@@ -1284,7 +1285,6 @@ author_num,filename,date
 3823,Parse-Stata-DtaReader-0-711.tgz,1405830741
 3823,Parse-Stata-DtaReader-0.711.tar.gz,1405830900
 3823,Parse-Lotus123-WK4-0.09.tar.gz,1405830988
-68,Dist-Zilla-Plugin-MatchManifest-4.02.tar.gz,1405838951
 1998,WWW-Scraper-ISBN-ISBNdb_Driver-0.10.tar.gz,1405842455
 5611,List-Objects-Types-1.002003.tar.gz,1405845195
 4441,Dist-Zilla-Plugin-RewriteVersion-Sanitized-0.001001.tar.gz,1405856555
