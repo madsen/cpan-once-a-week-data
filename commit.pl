@@ -58,6 +58,8 @@ my $message;
 #---------------------------------------------------------------------
 # Commit the files:
 
-system qw(git commit -m), $message, @files;
+system qw(git add), @files and exit(($? >> 8) || 1);
+
+system qw(git commit -m), $message;
 
 exit($? >> 8);
